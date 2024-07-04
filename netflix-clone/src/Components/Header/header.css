@@ -5,8 +5,8 @@
   justify-content: center;
   align-items: center;
   /* background-color: rgb(148, 132, 132); */
-  background-color: rgb(120, 120, 120);
-  background-color: transparent;
+  background-color: rgb(20, 20, 20);
+  /* background-color: transparent; */
   height: 10vh;
   color: white;
   transition: all 0.5s;
@@ -28,8 +28,20 @@
 .header_left ul{
   width: 140%;
   display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  cursor: pointer;
+  /* background-color: lightblue; */
 }
-
+.header_right ul{
+  width: 150%;
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  cursor: pointer;
+  /* background-color: lightgreen; */
+}
 
 
 

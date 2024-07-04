@@ -1,5 +1,5 @@
 import React from 'react'
-// import FacebookOutlinedIcon from "@mui/icons-material/FacebookOutlined";
+import FacebookOutlinedIcon from "@mui/icons-material/FacebookOutlined";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import YouTubeIcon from "@mui/icons-material/YouTube";
 import footer from "./footer.css";
@@ -9,7 +9,7 @@ const Footer = () => {
     <div className="footer_outer-container">
       <div className="footer_inner-container">
         <div className="footer-icons">
-          {/* <FacebookOutLinedIcon /> */}
+          <FacebookOutlinedIcon />
           <InstagramIcon />
           <YouTubeIcon />
         </div>
