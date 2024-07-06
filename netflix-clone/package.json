@@ -46,6 +46,8 @@
     ]
   },
   "devDependencies": {
+    "gh-pages -d build":"^6.1.1",
     "github-pages": "^3.0.2"
+    
   }
 }
